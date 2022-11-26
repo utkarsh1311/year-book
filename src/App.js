@@ -1,6 +1,13 @@
+import Navbar from "./components/Navbar";
+import Profile from "./components/Profile";
+import YearGrid from "./components/YearGrid";
+
 function App() {
   return (
-    <div className="App">
+    <div className="w-screen h-screen">
+      <Navbar />
+      <Profile />
+      <YearGrid/>
     </div>
   );
 }
