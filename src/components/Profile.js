@@ -7,7 +7,7 @@ import mail from "../assets/mail.svg";
 
 const Profile = () => {
 	return (
-		<div className="flex flex-col p-4 bg-gray-800 text-white gap-6 relative">
+		<div className="flex flex-col p-4 bg-gray-900 text-white gap-6 relative">
 			<img
 				src={share}
 				className="absolute right-5 top-5"

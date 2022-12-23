@@ -2,7 +2,7 @@ import share from "../assets/share.svg";
 
 const Resource = ({ title, description, time }) => {
 	return (
-		<div className="bg-gray-800 rounded-md text-white p-4 relative">
+		<div className="bg-gray-800 rounded-md text-white p-4 relative shadow-md">
 			<p className="text-xl font-bold font-primary">{title}</p>
 			<p className="text-sm">{description}</p>
       <p className="text-xs">{time}</p>
