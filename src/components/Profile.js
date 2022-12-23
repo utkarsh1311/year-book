@@ -15,6 +15,7 @@ const Profile = () => {
 			/>
 			<div className="w-28 h-28 bg-blue-600">
 				<img
+					className="w-28 h-28"
 					src={me}
 					alt=""
 				/>
