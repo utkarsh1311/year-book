@@ -1,4 +1,10 @@
+import { useState } from "react";
+
 const Login = () => {
+	const [userData, setUserData] = useState({
+		username: "",
+		password: "",
+	});
 	return (
 		<div className="text-white px-4 py-8">
 			<h1 className="text-2xl font-primary tracking-">
